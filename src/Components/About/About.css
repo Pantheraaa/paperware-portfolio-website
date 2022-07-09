@@ -1,0 +1,116 @@
+.about-us {
+  /* margin-top: 10rem; */
+
+  border: 2px solid transparent;
+  height: 90vh;
+  width: 100%;
+
+  font-family: var(--font);
+}
+
+.about-us h1 {
+  /* border: 2px solid grey; */
+  margin-top: 8rem;
+  height: 10%;
+  font-size: x-large;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-us-content {
+  /* border: 2px solid green; */
+  height: 78%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  /* background-color: #e4bad4; */
+  height: 100%;
+  width: 50%;
+  padding: 2rem 0rem 2rem 15rem;
+
+  font-size: 15px;
+  font-weight: 200;
+  text-align: right;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about p {
+  z-index: 10;
+}
+
+.about-pic {
+  /* background-color: #274; */
+  height: 100%;
+  width: 50%;
+  z-index: 8;
+}
+
+.about-pic .company-pic {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid saddlebrown; */
+
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-x: -40%;
+}
+
+@media screen and (max-width: 1080px) {
+  .about {
+    padding: 5rem 0rem 5rem 7rem;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .about {
+    padding: 1rem 0rem 1rem 2rem;
+    font-size: 11px;
+  }
+
+  .about-pic .company-pic {
+    background-size: 90%;
+    background-position-x: -100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-us {
+    height: 100vh;
+  }
+
+  .about-us-content {
+    flex-direction: column;
+  }
+
+  .about {
+    padding: 4rem;
+    font-size: 10px;
+    height: 50%;
+    width: 100%;
+    text-align: left;
+  }
+
+  .about-pic {
+    width: 100%;
+    height: 50%;
+  }
+
+  .about-pic .company-pic {
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: 2rem;
+  }
+}

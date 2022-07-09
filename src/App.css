@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* font-family: "Roboto", sans-serif; */
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #019267;
+  --font: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  border-radius: 30px;
+  width: 1rem;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: var(--primary);
+}
+
+html::-webkit-scrollbar-button {
+  background-color: rgb(92, 91, 91);
+}
+
+hr {
+  margin: 1px auto;
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+
+  background-color: #ea5455;
+  border: 2px solid #ea5455;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-us h1, .products h1 {
+  font-size: x-large;
+  font-weight: 500;
+}

@@ -1,0 +1,246 @@
+.contact-us {
+  height: 82vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  letter-spacing: 2px;
+
+  background-color: #252c30;
+  color: #fff;
+}
+
+.contact-us h1 {
+  height: 28%;
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2rem;
+  /* text-align: center; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-details {
+  height: 72%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  height: 100%;
+  width: 50%;
+  /* padding-right: 10rem; */
+  /* border: 2px solid pink; */
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contacts {
+  height: 100%;
+  width: 50%;
+
+  /* border: 2px solid pink; */
+}
+
+form {
+  height: max-content;
+  width: 40%;
+  /* padding-right: 10rem; */
+
+  /* border: 2px solid white; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  right: 5rem;
+}
+
+form input {
+  border-radius: 20px;
+  height: 2rem;
+  width: 90%;
+
+  margin: 5px;
+  padding: 17px 20px;
+  font-size: 18px;
+
+  border: 3px solid rgba(255, 255, 255, 0.655);
+  background-color: transparent;
+  color: #fff;
+}
+
+form textarea {
+  border-radius: 25px;
+  height: 15rem;
+  width: 90%;
+
+  margin: 5px;
+  padding: 7px 12px;
+  font-size: 15px;
+
+  border: 3px solid rgba(255, 255, 255, 0.655);
+  background-color: transparent;
+  color: #fff;
+}
+
+form button {
+  line-height: 3.5rem;
+  border-radius: 10px;
+  width: 95px;
+  border-color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  cursor: pointer;
+
+  background-color: #fac213;
+}
+
+.contacts {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 0px;
+  font-size: 15px;
+}
+
+.address {
+  /* border: 2px solid red; */
+  height: max-content;
+  width: 90%;
+}
+
+.references {
+  /* border: 2px solid pink; */
+  height: max-content;
+  width: 99%;
+  margin-top: 3rem;
+}
+
+.address h2,
+.references h2 {
+  font-size: 20px;
+  font-family: var(--font);
+}
+
+.address p,
+.references p {
+  margin-left: 3rem;
+}
+
+@media (max-width: 1080px) {
+  form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 798px) {
+  form {
+    width: 75%;
+  }
+
+  form input {
+    padding: 17px 12px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-us {
+    height: 88vh;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    height: 90%;
+  }
+
+  .form {
+    height: 55%;
+    width: 100%;
+  }
+
+  .contacts {
+    width: 100%;
+    height: 45%;
+    padding: 2.5rem 0px;
+  }
+
+  .contact-us h1 {
+    margin-top: 5.5rem;
+    height: 10%;
+  }
+
+  form {
+    height: 100%;
+    width: 100%;
+    right: 0;
+  }
+
+  form input {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  form textarea {
+    border-radius: 17px;
+    height: 12rem;
+    width: 70%;
+    margin: 3px;
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-us h1 {
+    margin-top: 4rem;
+  }
+
+  .about-us-content {
+    height: 90%;
+  }
+
+  .products {
+    height: 130vh;
+  }
+  .products {
+    height: 138vh;
+  }
+
+  .products h1 {
+    margin-top: -6rem;
+  }
+
+  .contact-us {
+    height: 115vh;
+    margin-top: 8rem;
+  }
+
+  .contact-us h1 {
+    padding-top: 2rem;
+    height: 10%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 520px) {
+  .products {
+    height: 106vh;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 377px) {
+  .products {
+    height: 130vh;
+  }
+}
